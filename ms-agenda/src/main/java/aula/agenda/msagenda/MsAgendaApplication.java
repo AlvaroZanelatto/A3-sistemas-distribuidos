@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 public class MsAgendaApplication {
 
     @Bean
-    @LoadBalanced
+    //@LoadBalanced
     public RestTemplate createRestTemplate() {
         return new RestTemplate();
     }
